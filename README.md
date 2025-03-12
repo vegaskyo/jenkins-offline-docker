@@ -18,39 +18,6 @@ A secure, air-gapped Jenkins Docker image with pre-installed plugins and disable
 - 4GB RAM (minimum)
 - 10GB Disk space
 
-## 🚦 Quick Start
-
-### 1. Generate plugins.txt
-```bash
-# Install plugin manager
-sudo apt install jenkins-plugin-cli
-
-# Generate plugin list from existing Jenkins (optional)
-jenkins-plugin-cli --list --output txt > plugins.txt
-```
-
-### 2. Download Plugins
-```bash
-mkdir plugins
-jenkins-plugin-cli --plugin-download-directory ./plugins \
-  --plugin-file plugins.txt \
-  --war /usr/share/jenkins/jenkins.war
-```
-
-### 3. Build Image
-```bash
-docker build -t my-offline-jenkins:1.0 .
-```
-
-### 4. Run Container
-```bash
-docker run -d \
-  -p 8080:8080 \
-  -p 50000:50000 \
-  -v jenkins-data:/var/jenkins_home \
-  --name offline-jenkins \
-  my-offline-jenkins:1.0
-```
 
 ## 🔧 Customization
 
