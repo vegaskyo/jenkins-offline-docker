@@ -106,17 +106,5 @@ docker logs offline-jenkins
 docker run ... -u root:root ...
 ```
 
-## 🤝 Contributing
-PRs welcome! Please follow:
-1. Fork repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Open PR
 
-## 📄 License
-MIT License - see [LICENSE](LICENSE) file
-
----
-
-Made with ❤️ by [Your Name] | 🐳 Happy DevOps-ing!
+Made with ❤️ by [vegaskyo] | 🐳 Happy DevOps-ing!
