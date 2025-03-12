@@ -7,7 +7,7 @@ A secure, air-gapped Jenkins Docker image with pre-installed plugins and disable
 
 ## 📦 Features
 - ✅ 100% Offline operation
-- 🔌 50+ Essential plugins pre-installed
+- 🔌 50+ Essential plugins pre-installed (Include Gitlab, Kubernetes and essential ones)
 - 🛑 Update checks disabled
 - 🔒 Security-first configuration
 - 🐳 Docker-in-Docker support
